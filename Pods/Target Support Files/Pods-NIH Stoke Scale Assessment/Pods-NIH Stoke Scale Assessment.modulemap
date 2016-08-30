@@ -1,0 +1,6 @@
+framework module Pods_NIH_Stoke_Scale_Assessment {
+  umbrella header "Pods-NIH Stoke Scale Assessment-umbrella.h"
+
+  export *
+  module * { export * }
+}

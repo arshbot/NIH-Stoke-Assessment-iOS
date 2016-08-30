@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C16C5CC61D74E1BD00AA458C /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C5CC51D74E1BD00AA458C /* CustomCollectionCell.swift */; };
+		C16C5CC81D74E1F500AA458C /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C5CC71D74E1F500AA458C /* CustomSegmentControl.swift */; };
+		C16C5CCB1D74E34B00AA458C /* QuestionnaireLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C5CCA1D74E34B00AA458C /* QuestionnaireLayout.swift */; };
 		C17EB55B1D6A117000610602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EB55A1D6A117000610602 /* AppDelegate.swift */; };
-		C17EB55D1D6A117000610602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EB55C1D6A117000610602 /* ViewController.swift */; };
 		C17EB5601D6A117100610602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17EB55E1D6A117000610602 /* Main.storyboard */; };
-		C17EB5631D6A117100610602 /* NIH_Stoke_Scale_Assessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C17EB5611D6A117100610602 /* NIH_Stoke_Scale_Assessment.xcdatamodeld */; };
 		C17EB5651D6A117100610602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17EB5641D6A117100610602 /* Assets.xcassets */; };
 		C17EB5681D6A117100610602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17EB5661D6A117100610602 /* LaunchScreen.storyboard */; };
+		C17EB5741D6E107700610602 /* QuestionnaireCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EB5731D6E107700610602 /* QuestionnaireCollectionViewController.swift */; };
+		FA354C25A5E3007FAA4A7ECB /* Pods_NIH_Stoke_Scale_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A986790A0AD2AA2E87D886 /* Pods_NIH_Stoke_Scale_Assessment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67A986790A0AD2AA2E87D886 /* Pods_NIH_Stoke_Scale_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIH_Stoke_Scale_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B6746DF897DE2D014E49FA /* Pods-NIH Stoke Scale Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIH Stoke Scale Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-NIH Stoke Scale Assessment/Pods-NIH Stoke Scale Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		C16C5CC51D74E1BD00AA458C /* CustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		C16C5CC71D74E1F500AA458C /* CustomSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
+		C16C5CCA1D74E34B00AA458C /* QuestionnaireLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireLayout.swift; sourceTree = "<group>"; };
 		C17EB5571D6A117000610602 /* NIH Stoke Scale Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIH Stoke Scale Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17EB55A1D6A117000610602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C17EB55C1D6A117000610602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C17EB55F1D6A117100610602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C17EB5621D6A117100610602 /* NIH_Stoke_Scale_Assessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NIH_Stoke_Scale_Assessment.xcdatamodel; sourceTree = "<group>"; };
 		C17EB5641D6A117100610602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C17EB5671D6A117100610602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C17EB5691D6A117100610602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17EB5731D6E107700610602 /* QuestionnaireCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireCollectionViewController.swift; sourceTree = "<group>"; };
+		D5627A6D676306D7423A82EA /* Pods-NIH Stoke Scale Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIH Stoke Scale Assessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NIH Stoke Scale Assessment/Pods-NIH Stoke Scale Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA354C25A5E3007FAA4A7ECB /* Pods_NIH_Stoke_Scale_Assessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C16C5CC91D74E2E100AA458C /* ReusableCells */ = {
+			isa = PBXGroup;
+			children = (
+				C16C5CC71D74E1F500AA458C /* CustomSegmentControl.swift */,
+				C16C5CC51D74E1BD00AA458C /* CustomCollectionCell.swift */,
+			);
+			name = ReusableCells;
+			sourceTree = "<group>";
+		};
 		C17EB54E1D6A117000610602 = {
 			isa = PBXGroup;
 			children = (
 				C17EB5591D6A117000610602 /* NIH Stoke Scale Assessment */,
 				C17EB5581D6A117000610602 /* Products */,
+				DA0BB2DDB7EDC7968D5046EB /* Pods */,
+				D80A7C41DDC1B59BF77A11C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +77,32 @@
 			isa = PBXGroup;
 			children = (
 				C17EB55A1D6A117000610602 /* AppDelegate.swift */,
-				C17EB55C1D6A117000610602 /* ViewController.swift */,
 				C17EB55E1D6A117000610602 /* Main.storyboard */,
 				C17EB5641D6A117100610602 /* Assets.xcassets */,
 				C17EB5661D6A117100610602 /* LaunchScreen.storyboard */,
 				C17EB5691D6A117100610602 /* Info.plist */,
-				C17EB5611D6A117100610602 /* NIH_Stoke_Scale_Assessment.xcdatamodeld */,
+				C17EB5731D6E107700610602 /* QuestionnaireCollectionViewController.swift */,
+				C16C5CC91D74E2E100AA458C /* ReusableCells */,
+				C16C5CCA1D74E34B00AA458C /* QuestionnaireLayout.swift */,
 			);
 			path = "NIH Stoke Scale Assessment";
+			sourceTree = "<group>";
+		};
+		D80A7C41DDC1B59BF77A11C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A986790A0AD2AA2E87D886 /* Pods_NIH_Stoke_Scale_Assessment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0BB2DDB7EDC7968D5046EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5627A6D676306D7423A82EA /* Pods-NIH Stoke Scale Assessment.debug.xcconfig */,
+				C0B6746DF897DE2D014E49FA /* Pods-NIH Stoke Scale Assessment.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17EB56C1D6A117100610602 /* Build configuration list for PBXNativeTarget "NIH Stoke Scale Assessment" */;
 			buildPhases = (
+				A9CB8A9DAEAF1858859B9351 /* [CP] Check Pods Manifest.lock */,
 				C17EB5531D6A117000610602 /* Sources */,
 				C17EB5541D6A117000610602 /* Frameworks */,
 				C17EB5551D6A117000610602 /* Resources */,
+				9653D542564C42A0C9D6FA10 /* [CP] Embed Pods Frameworks */,
+				FB16D413A3EFF71F83B2FE90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +174,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9653D542564C42A0C9D6FA10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIH Stoke Scale Assessment/Pods-NIH Stoke Scale Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9CB8A9DAEAF1858859B9351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB16D413A3EFF71F83B2FE90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIH Stoke Scale Assessment/Pods-NIH Stoke Scale Assessment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C17EB5531D6A117000610602 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17EB55D1D6A117000610602 /* ViewController.swift in Sources */,
-				C17EB5631D6A117100610602 /* NIH_Stoke_Scale_Assessment.xcdatamodeld in Sources */,
+				C16C5CCB1D74E34B00AA458C /* QuestionnaireLayout.swift in Sources */,
+				C16C5CC61D74E1BD00AA458C /* CustomCollectionCell.swift in Sources */,
+				C17EB5741D6E107700610602 /* QuestionnaireCollectionViewController.swift in Sources */,
 				C17EB55B1D6A117000610602 /* AppDelegate.swift in Sources */,
+				C16C5CC81D74E1F500AA458C /* CustomSegmentControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +344,7 @@
 		};
 		C17EB56D1D6A117100610602 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5627A6D676306D7423A82EA /* Pods-NIH Stoke Scale Assessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "NIH Stoke Scale Assessment/Info.plist";
@@ -264,6 +356,7 @@
 		};
 		C17EB56E1D6A117100610602 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B6746DF897DE2D014E49FA /* Pods-NIH Stoke Scale Assessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "NIH Stoke Scale Assessment/Info.plist";
@@ -292,21 +385,9 @@
 				C17EB56E1D6A117100610602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C17EB5611D6A117100610602 /* NIH_Stoke_Scale_Assessment.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C17EB5621D6A117100610602 /* NIH_Stoke_Scale_Assessment.xcdatamodel */,
-			);
-			currentVersion = C17EB5621D6A117100610602 /* NIH_Stoke_Scale_Assessment.xcdatamodel */;
-			path = NIH_Stoke_Scale_Assessment.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C17EB54F1D6A117000610602 /* Project object */;
 }

@@ -1,25 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fl8-il-0aN">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Questionnaire Collection View Controller-->
+        <scene sceneID="WUm-wQ-i78">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <collectionViewController id="fl8-il-0aN" customClass="QuestionnaireCollectionViewController" customModule="NIH_Stoke_Scale_Assessment" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="6At-bF-yv4">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" red="1" green="0.46012044461960611" blue="0.49842023447848116" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewLayout key="collectionViewLayout" id="aDf-i7-Q3H" customClass="QuestionnaireLayout" customModule="NIH_Stoke_Scale_Assessment" customModuleProvider="target"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" verticalCompressionResistancePriority="1000" preservesSuperviewLayoutMargins="YES" reuseIdentifier="questionCell" id="xoD-a2-sR6" customClass="CustomCollectionCell" customModule="NIH_Stoke_Scale_Assessment" customModuleProvider="target">
+                                <rect key="frame" x="38" y="0.0" width="524" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="508" height="313"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Question" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knj-kA-YrW">
+                                            <rect key="frame" x="8" y="8" width="508" height="21"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="question"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular" misplaced="YES">
+                                                <rect key="frame" x="8" y="8" width="492" height="21"/>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPw-qJ-UzS">
+                                            <rect key="frame" x="26" y="30" width="490" height="16"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="description"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular" misplaced="YES">
+                                                <rect key="frame" x="26" y="30" width="474" height="16"/>
+                                            </variation>
+                                        </label>
+                                        <view contentMode="center" verticalCompressionResistancePriority="1000" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ge7-Og-7i1">
+                                            <rect key="frame" x="8" y="59" width="508" height="197"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
+                                                <rect key="frame" x="8" y="59" width="492" height="246"/>
+                                            </variation>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="knj-kA-YrW" firstAttribute="top" secondItem="xoD-a2-sR6" secondAttribute="topMargin" id="5cr-FG-8We"/>
+                                    <constraint firstItem="ge7-Og-7i1" firstAttribute="trailing" secondItem="xoD-a2-sR6" secondAttribute="trailingMargin" id="HO1-UO-egA"/>
+                                    <constraint firstItem="knj-kA-YrW" firstAttribute="leading" secondItem="xoD-a2-sR6" secondAttribute="leadingMargin" id="MbB-Z5-vtd"/>
+                                    <constraint firstItem="JPw-qJ-UzS" firstAttribute="top" secondItem="knj-kA-YrW" secondAttribute="bottom" constant="1" id="Pjp-85-VYr"/>
+                                    <constraint firstItem="JPw-qJ-UzS" firstAttribute="leading" secondItem="xoD-a2-sR6" secondAttribute="leadingMargin" constant="18" id="Uaa-iN-Awr"/>
+                                    <constraint firstItem="JPw-qJ-UzS" firstAttribute="leading" secondItem="xoD-a2-sR6" secondAttribute="leadingMargin" constant="18" id="Ue3-D6-UtV"/>
+                                    <constraint firstItem="ge7-Og-7i1" firstAttribute="bottom" secondItem="xoD-a2-sR6" secondAttribute="bottomMargin" id="c1g-tz-1Hp"/>
+                                    <constraint firstItem="ge7-Og-7i1" firstAttribute="top" secondItem="JPw-qJ-UzS" secondAttribute="bottom" constant="13" id="cRV-eW-n55"/>
+                                    <constraint firstItem="knj-kA-YrW" firstAttribute="top" secondItem="xoD-a2-sR6" secondAttribute="topMargin" id="fJ4-pp-HZy"/>
+                                    <constraint firstItem="knj-kA-YrW" firstAttribute="leading" secondItem="xoD-a2-sR6" secondAttribute="leadingMargin" id="hGk-jX-CvB"/>
+                                    <constraint firstItem="ge7-Og-7i1" firstAttribute="leading" secondItem="xoD-a2-sR6" secondAttribute="leadingMargin" id="n7t-QT-PWg"/>
+                                    <constraint firstItem="JPw-qJ-UzS" firstAttribute="top" secondItem="knj-kA-YrW" secondAttribute="bottom" constant="1" id="neT-fD-hoD"/>
+                                    <constraint firstItem="ge7-Og-7i1" firstAttribute="leading" secondItem="xoD-a2-sR6" secondAttribute="leadingMargin" id="yUv-nK-0lv"/>
+                                    <constraint firstItem="ge7-Og-7i1" firstAttribute="top" secondItem="JPw-qJ-UzS" secondAttribute="bottom" constant="13" id="zXz-xW-ZVE"/>
+                                </constraints>
+                                <size key="customSize" width="508" height="313"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5cr-FG-8We"/>
+                                        <exclude reference="hGk-jX-CvB"/>
+                                        <exclude reference="Ue3-D6-UtV"/>
+                                        <exclude reference="neT-fD-hoD"/>
+                                        <exclude reference="n7t-QT-PWg"/>
+                                        <exclude reference="zXz-xW-ZVE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="5cr-FG-8We"/>
+                                        <exclude reference="MbB-Z5-vtd"/>
+                                        <exclude reference="fJ4-pp-HZy"/>
+                                        <include reference="hGk-jX-CvB"/>
+                                        <exclude reference="Pjp-85-VYr"/>
+                                        <exclude reference="Uaa-iN-Awr"/>
+                                        <include reference="Ue3-D6-UtV"/>
+                                        <include reference="neT-fD-hoD"/>
+                                        <exclude reference="HO1-UO-egA"/>
+                                        <exclude reference="c1g-tz-1Hp"/>
+                                        <exclude reference="cRV-eW-n55"/>
+                                        <include reference="n7t-QT-PWg"/>
+                                        <exclude reference="yUv-nK-0lv"/>
+                                        <include reference="zXz-xW-ZVE"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="questionDescriptionLabel" destination="JPw-qJ-UzS" id="Bt4-kI-hqr"/>
+                                    <outlet property="questionLabel" destination="knj-kA-YrW" id="inY-Vm-Qah"/>
+                                    <outlet property="viewForSegment" destination="ge7-Og-7i1" id="fBR-pc-QXS"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="fl8-il-0aN" id="Wx8-lM-HON"/>
+                            <outlet property="delegate" destination="fl8-il-0aN" id="QbH-nm-SX9"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFu-p1-hGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1054" y="-976.5"/>
         </scene>
     </scenes>
 </document>
