@@ -14,8 +14,6 @@ protocol QuestionnaireLayoutDelegate {
     func collectionView(collectionView:UICollectionView, heightForCellAtIndexPath indexPath:NSIndexPath, withWidth:CGFloat) -> CGFloat
 }
 
-NSObject
-
 class QuestionnaireLayout: UICollectionViewLayout {
     var delegate: QuestionnaireLayoutDelegate!
 
@@ -32,6 +30,7 @@ class QuestionnaireLayout: UICollectionViewLayout {
     
     override func prepareLayout() {
         // 1
+        
         if cache.isEmpty {
             // 2
             let columnWidth = contentWidth / CGFloat(numberOfColumns)

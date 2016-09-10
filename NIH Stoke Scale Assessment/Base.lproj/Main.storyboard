@@ -17,7 +17,7 @@
                         <collectionViewLayout key="collectionViewLayout" id="aDf-i7-Q3H" customClass="QuestionnaireLayout" customModule="NIH_Stoke_Scale_Assessment" customModuleProvider="target"/>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" verticalCompressionResistancePriority="1000" preservesSuperviewLayoutMargins="YES" reuseIdentifier="questionCell" id="xoD-a2-sR6" customClass="CustomCollectionCell" customModule="NIH_Stoke_Scale_Assessment" customModuleProvider="target">
-                                <rect key="frame" x="38" y="0.0" width="524" height="264"/>
+                                <rect key="frame" x="46" y="0.0" width="508" height="313"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="508" height="313"/>
@@ -43,7 +43,7 @@
                                                 <rect key="frame" x="26" y="30" width="474" height="16"/>
                                             </variation>
                                         </label>
-                                        <view contentMode="center" verticalCompressionResistancePriority="1000" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ge7-Og-7i1">
+                                        <view contentMode="center" verticalCompressionResistancePriority="1000" misplaced="YES" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ge7-Og-7i1">
                                             <rect key="frame" x="8" y="59" width="508" height="197"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
